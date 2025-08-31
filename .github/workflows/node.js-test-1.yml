@@ -17,7 +17,7 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '23'   # adjust version as per your Jenkins setup
+          node-version: '23'   # adjust version as per your Jenkins setup verywell
 
       - name: Frontend Compilation (Syntax Check)
         run: |
