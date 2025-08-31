@@ -30,7 +30,7 @@ jobs:
           find . -name "*.js" -exec node --check {} +
   gitleaks-scan:
     runs-on: agent-1
-    # needs: compile
+    needs: compile
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
