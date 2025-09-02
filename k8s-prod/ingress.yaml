@@ -46,6 +46,6 @@ spec:
                   number: 80
   tls:
     - hosts:
-        - adityajaiswal.com
-        - www.adityajaiswal.com
+        - 654654306645.realhandsonlabs.net
+        - www.654654306645.realhandsonlabs.net
       secretName: adityajaiswal-co-tls
