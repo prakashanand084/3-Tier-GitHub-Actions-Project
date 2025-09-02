@@ -155,7 +155,7 @@ jobs:
       - name: Run Trivy image scan for backend
         uses: aquasecurity/trivy-action@0.28.0
         with:
-          scan-type: image               # 👈 scan container image
+          scan-type: image               # 👈 scan container image 
           image-ref: prkshanand084/backend:latest
           format: table
           exit-code: '0'                 
